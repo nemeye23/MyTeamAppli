@@ -23,6 +23,12 @@
                 android:value=".MainActivity" />
 
         </activity>
+        <activity android:name=".SelectionActivity"
+            android:parentActivityName=".DashboardActivity">
+            <!--<meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashboardActivity" />-->
+        </activity>
     </application>
 
 </manifest>
